@@ -370,7 +370,11 @@ function toArray(eins, zwei){
    return [eins, zwei];
 }
 ```
-## Aufgabe 54
+## Aufgabe 54 Array-Elemente lesen
+```JS
+function getFirstElement([eins, zwei]){
+    return eins;
+}
 ## Aufgabe 55
 ## Aufgabe 56
 ## Aufgabe 57

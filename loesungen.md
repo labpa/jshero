@@ -1,4 +1,4 @@
-# Aufgaben
+# Lösungen
 
 ## Aufgabe 1 Variablen
 ```JS

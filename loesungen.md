@@ -4,14 +4,18 @@
 Deklariere eine Variable vorname und initialisiere sie mit dem Wert 'Franz'. 
 
 ### Lösung
-    let vorname = 'Franz';
+```JS
+let vorname = 'Franz';
+```
 
 ## Aufgabe 2 Was ist x
 Welchen Wert hat x nach Ausführung des folgenden Codes?
 
         let x = 'Josefine';
 ### Lösung
+```JS
     'Josefine'
+```
 
 ## Aufgabe 3 Mehrere Variablen
 Möchte man mehrere Variablen deklarieren und initialisieren, so kann man das in zwei Programmzeitel tun:
@@ -22,69 +26,39 @@ In jeder ZEile steht eine Anweisung. Jede Anweisung sollte mit einem Semikolon a
 
 Deklariere eine Variable *blume* und weise ihr den Wert 'Rose' zu. Deklariere eine zweite Variable *tier* und weise ihr den Wert 'Käfer' zu. 
 ### Lösung
-    let blume ='Rose;
+```JS
+    let blume ='Rose';
     let tier = 'Käfer';
+```
 
 ## Aufgabe 4 Neuzuweisung
-Eine Variable kann man jederzeit mit dem Gleichheitszeichen einen neuen Wert zuweisen. DAs Schlüsselwort *let* wird dabei *nicht nochmal* verwendet.
-
-    let farbe = 'rot';
-    farbe = 'grün';
-Die Variable farbe wird mit dem Wert 'rot' initialisiert. Danach erhält sie den Wert 'grün'
-
-Welchen Wert hat x nach Ausführung des folgenden Codes?
-
-    let x = 'Georg';
-    x = 'Karl';
-    x = 'Gregor';
-### Lösung
-
+```JS
     'Gregor'
+```
 
 ## Aufgabe 5 Variablen zuweisen:
-
-Einer Variablen kann man auch den Wert einer anderen Variablen zuweisen:
-
-    let name1 = 'Olga';
-    let name2 = name1;
-    name1 ='Clara';
-In der zweiten Codezeile wird der Variablen name2 der Wert der VAriablen name1 zugewiesen. name2 erhält den Wert 'Olga'. Diesen Wert behält name2 bei, auch wenn anschließend name1 einen neuen Wert erhält.
-
-Welchen Wert hat x nach Ausführung des folgenden Codes?
-
-    let x = 'rot';
-    let y = 'grün';
-    let z = y;
-    y = x;
-    x = z;
-### Lösung
-
-    'grün'
+```JS
+'grün'
+```
 
 ## Aufgabe 6 Funktionen
 Definiere eine Funktion  hallo, die 'Hallo Welt!' zurückgibt
 ### Lösung
-
-    function hallo(){
+```JS
+function hallo(){
     return 'Hallo Welt!';   
-    }
+}
+```
 
 ## Aufgabe 7 Mehrere Funktionen
-Wir definieren nun mehr als eine Funktion. Zur Erinnerung: So wird eine Funktion mit Namen farbe definiert, die den Wert 'rot' zurückgibt:
-
-    function farbe(){
-        return 'rot';
-    }
-Definiere zwei Funktionen. Die erste Funktion *a* soll *'Hallo a!'* zurückgeben. Die zweite Funktion *b* soll *'Hallo b!'* zurückgeben.
-### Lösung
-
-    function a(){
-        return 'Hallo a!';
-    }
-    function b(){
-        return 'Hallo b!'
-    }
-
+```JS
+function a(){
+    return 'Hallo a!';
+}
+function b(){
+    return 'Hallo b!'
+}
+```
 ## Aufgabe 8 Funktionsaufruf
 1. Definiere eine Funktion *begruesse*, die den Wert *'Moin!'* zurückgibt.
 2. Deklariere eine Variable *begruessung*. Rufe die Funktion *begruesse* auf und weise der Variablen *begruessung* die Rückgabe des Aufrufs zu.

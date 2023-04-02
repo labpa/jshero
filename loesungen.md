@@ -340,7 +340,30 @@ return eins + zwei + zuschlag;
 }
 ```
 
-## Aufgabe 52
+## Aufgabe 52 else if
+```JS
+function addiereMitZuschlag(eins, zwei){
+let zuschlag = 0;
+
+   if (eins <= 10){
+      zuschlag = zuschlag + 1;
+    } else if (eins >10 && eins <=20){
+      zuschlag = zuschlag + 2; 
+    } else {
+    zuschlag = zuschlag + 3;
+    }
+
+   if (zwei <= 10){
+      zuschlag = zuschlag + 1;
+    } else if (zwei >10 && zwei <=20){
+      zuschlag = zuschlag + 2; 
+    } else {
+    zuschlag = zuschlag + 3;
+    }
+
+return eins + zwei + zuschlag;
+}
+```
 ## Aufgabe 53
 ## Aufgabe 54
 ## Aufgabe 55

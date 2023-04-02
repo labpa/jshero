@@ -302,23 +302,194 @@ return 1.8 * celsius + 32;
 function einer(plus){
    return plus % 10;
 }
-``
-## Aufgabe 32
-## Aufgabe 33
-## Aufgabe 34
-## Aufgabe 35
-## Aufgabe 36
-## Aufgabe 37
-## Aufgabe 38
-## Aufgabe 39
-## Aufgabe 40
-## Aufgabe 41
-## Aufgabe 42
-## Aufgabe 43
-## Aufgabe 44
-## Aufgabe 45
-## Aufgabe 46
-## Aufgabe 47
-## Aufgabe 48
-## Aufgabe 49
-## Aufgabe 50
+```
+## Aufgabe 32 Klammern
+```JS 
+function mittelwert(eins, zwei){
+return (eins+zwei)/2
+}
+```
+## Aufgabe 33 Math
+```JS
+function hypotenuse(cola, bier){
+let quadrat = Math.pow(cola, 2) + Math.pow(bier, 2);
+return Math.sqrt(quadrat);
+}
+```
+## Aufgabe 34 Min und Max
+```JS
+function bereichsmittel(eins, zwei, molle){
+    let min = Math.min(eins, zwei, molle);
+    let max = Math.max(eins, zwei, molle);
+    return (min+max)/2;
+}
+```
+## Aufgabe 35 Math.PI
+```JS
+function flaeche(leti){
+let rquadrat = leti * leti;
+return rquadrat * Math.PI;
+}
+```
+## Aufgabe 36 Runden
+```JS
+function round100(eins){
+    return Math.round(eins / 100)*100
+}
+```
+## Aufgabe 37 Zufallszahlen
+```JS
+function dice(){
+    return Math.ceil(Math.random()*6);
+}
+```
+## Aufgabe 38 parseInt()
+```JS
+function add(mal){
+let n1 = parseInt(mal, 10);
+let plus= mal.indexOf('+');
+let after = mal.substr(plus + 1);
+let summe = parseInt(after, 10);
+let test = n1 + summe;
+return test;
+}
+```
+## Aufgabe 39 Number: toString() !NICHT FERTIG!
+```JS
+function digitLength(eins){
+    let pars = parseInt(eins, 10)
+    return pars.toString();
+}
+```
+## Aufgabe 40 Number: toFixed()
+```JS
+function toEuro(money){
+    kommaStelle = money.toFixed(2);
+    numberInGerman = kommaStelle.replace('.',',');
+    return numberInGerman + ' €';
+}
+```
+## Aufgabe 41 Warheitswerte
+```JS
+function nand(idk, kp){
+ let und = idk && kp;
+ return !und;
+}
+```
+## Aufgabe 42 NOR
+```JS
+function nor(a, b){
+    return !(a||b)
+}
+```
+## Aufgabe 43 XOR
+```JS
+function xor(h, c){
+  return h && !c || !h && c;
+}
+```
+## Aufgabe 44 Strikte Gleichheit
+```JS
+function gleich(eins, zwei){
+    return eins === zwei;
+}
+```
+## Aufgabe 45 Drei gleiche Werte
+```JS
+function equals(a,b,c){
+    let eins = a === b;
+    let zwei = b === c;
+    return eins && zwei;
+}
+```
+## Aufgabe 46 Gerade Zahlen
+```JS
+function isEven(eins){
+    return eins % 2 === 0;
+}
+```
+## Aufgabe 47 Strikte Ungleichheit
+```JS
+function unequal(a, b, c){
+ let eins= a !== b;
+ let zwei= a !== c;
+ let drei= b !== c;
+ return eins && zwei && drei;
+}
+```
+
+## Aufgabe 48 Zahlen vergleichen
+## Aufgabe 49 if
+## Aufgabe 50 Zwei retunr-Anweisungen
+## Aufgabe 51
+## Aufgabe 52
+## Aufgabe 53
+## Aufgabe 54
+## Aufgabe 55
+## Aufgabe 56
+## Aufgabe 57
+## Aufgabe 58
+## Aufgabe 59
+## Aufgabe 60 
+## Aufgabe 61
+## Aufgabe 62
+## Aufgabe 63
+## Aufgabe 64
+## Aufgabe 65
+## Aufgabe 66
+## Aufgabe 67
+## Aufgabe 68
+## Aufgabe 69
+## Aufgabe 70 
+## Aufgabe 71
+## Aufgabe 72
+## Aufgabe 73
+## Aufgabe 74
+## Aufgabe 75
+## Aufgabe 76
+## Aufgabe 77
+## Aufgabe 78
+## Aufgabe 79
+## Aufgabe 80 
+## Aufgabe 81
+## Aufgabe 82
+## Aufgabe 83
+## Aufgabe 84
+## Aufgabe 85
+## Aufgabe 86
+## Aufgabe 87
+## Aufgabe 88
+## Aufgabe 89
+## Aufgabe 90 
+## Aufgabe 91
+## Aufgabe 92
+## Aufgabe 93
+## Aufgabe 94
+## Aufgabe 95
+## Aufgabe 96
+## Aufgabe 97
+## Aufgabe 98
+## Aufgabe 99
+## Aufgabe 100 
+## Aufgabe 101
+## Aufgabe 102
+## Aufgabe 103
+## Aufgabe 104
+## Aufgabe 105
+## Aufgabe 106
+## Aufgabe 107
+## Aufgabe 108
+## Aufgabe 109
+## Aufgabe 110 
+## Aufgabe 111
+## Aufgabe 112
+## Aufgabe 113
+## Aufgabe 114
+## Aufgabe 115
+## Aufgabe 116
+## Aufgabe 117
+## Aufgabe 118
+## Aufgabe 119
+## Aufgabe 120
+## Aufgabe 121
+## Aufgabe 122

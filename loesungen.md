@@ -228,3 +228,80 @@ let x = bleiben('Mainz');
 ```
 
 ## Aufgabe 20 String: length
+```JS
+function laenge(Franz){
+return Franz.length
+}
+```
+## Aufgabe 21 String: toUpperCase()
+```JS
+function toCase(ida){
+let klein = ida.toLowerCase();
+let gross = ida.toUpperCase();
+return klein + '-' + gross;
+}
+```
+## Aufgabe 22 String: charAt()
+```JS
+function abkuerzung(Hansestadt, Bremen){
+ let erste = Hansestadt.charAt(0);
+ let zweite = Bremen.charAt(0);
+return erste + zweite;
+}
+```
+## Aufgabe 23 String: trim()
+```JS
+function firstChar(Rosa){
+let trim = Rosa.trim();
+return trim.charAt(0);
+}
+```
+## Aufgabe 25 String: indexOf(), 2. Parameter
+```JS
+function secondIndexOf(eins, zwei){
+ let n1 = eins.indexOf(zwei);
+
+return eins.indexOf(zwei, n1 +1);
+}
+```
+## Aufgabe 26 String: substr()
+```JS
+function firstWord(der){
+ let fred = der.indexOf(' ');
+ return der.substr(0, fred);
+}
+```
+## Aufgabe 27 String: replace()
+```JS
+function convert(DatumEnglisch) {
+ let DatumDeutsch = DatumEnglisch.replace('-', '.');
+ DatumDeutsch = DatumDeutsch.replace('-', '.');
+ DatumDeutsch = DatumDeutsch.replace('/', '.');
+ DatumDeutsch = DatumDeutsch.replace('/', '.');
+ return DatumDeutsch;
+}
+```
+## Aufgabe 28 Zahlen
+```JS
+function add(eins, zwei){
+return eins + zwei;
+}
+```
+## Aufgabe 29 Inkrement
+```JS
+7
+```
+## Aufgabe 30 Fahrenheit
+```JS
+function toFahrenheit(celsius){
+return 1.8 * celsius + 32;
+}
+```
+## Aufgabe 31 Modulo
+```JS
+function einer(plus){
+   return plus % 10;
+}
+``
+## Aufgabe 32
+## Aufgabe 34

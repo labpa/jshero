@@ -304,4 +304,21 @@ function einer(plus){
 }
 ``
 ## Aufgabe 32
+## Aufgabe 33
 ## Aufgabe 34
+## Aufgabe 35
+## Aufgabe 36
+## Aufgabe 37
+## Aufgabe 38
+## Aufgabe 39
+## Aufgabe 40
+## Aufgabe 41
+## Aufgabe 42
+## Aufgabe 43
+## Aufgabe 44
+## Aufgabe 45
+## Aufgabe 46
+## Aufgabe 47
+## Aufgabe 48
+## Aufgabe 49
+## Aufgabe 50

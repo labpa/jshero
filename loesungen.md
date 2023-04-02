@@ -419,8 +419,22 @@ function unequal(a, b, c){
 ```
 
 ## Aufgabe 48 Zahlen vergleichen
+```JS
+function istDreistellig(zahl){
+    return zahl >= 100 && zahl >1000;
+}
+```
 ## Aufgabe 49 if
-## Aufgabe 50 Zwei retunr-Anweisungen
+```JS
+function gleich(eins, zwei){
+    let ergebnis ="UNGLEICH";
+    if (eins===zwei){
+        ergebnis = "GLEICH";
+    }
+    return ergebnis;
+}
+```
+## Aufgabe 50 Zwei return-Anweisungen
 ## Aufgabe 51
 ## Aufgabe 52
 ## Aufgabe 53

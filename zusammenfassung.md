@@ -1,4 +1,4 @@
-# Zusammenfassung
+# Operatoren
 
 ## Warheitswerte
 Wahrheitswerte werden auch boolesche Werte genannt. Boolesche Werte kennen nur zwei Zustände: **true** und **false**.  
@@ -45,4 +45,20 @@ function xor(a,b){
 }
 ```
 
-## 
+## Zahlen vergleichen
+größer
+```JS 
+>
+```
+größer gleich
+```JS
+>= 
+```
+kleiner
+```JS
+<
+```
+kleiner gleich
+```JS
+<=
+```

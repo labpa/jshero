@@ -375,7 +375,8 @@ function toArray(eins, zwei){
 function getFirstElement([eins, zwei]){
     return eins;
 }
-''' 
+```
+
 ## Aufgabe 55
 ## Aufgabe 56
 ## Aufgabe 57

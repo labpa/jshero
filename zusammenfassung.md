@@ -62,3 +62,7 @@ kleiner gleich
 ```JS
 <=
 ```
+## Arrays
+```JS
+[]
+```

@@ -364,7 +364,12 @@ let zuschlag = 0;
 return eins + zwei + zuschlag;
 }
 ```
-## Aufgabe 53
+## Aufgabe 53 Arrays
+```JS
+function toArray(eins, zwei){
+   return [eins, zwei];
+}
+```
 ## Aufgabe 54
 ## Aufgabe 55
 ## Aufgabe 56

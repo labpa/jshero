@@ -310,7 +310,36 @@ function gleich(eins, zwei){
 }
 ```
 ## Aufgabe 50 Zwei return-Anweisungen
-## Aufgabe 51
+```JS
+function schnapszahl(zahl){
+ let einerstelle = zahl % 10;
+ let zehnerstelle = Math.floor(zahl /10);
+if (einerstelle === zehnerstelle) {
+ return "Schnaps!";
+}
+return "Kein Schnaps!";
+}
+```
+## Aufgabe 51 if...else
+```JS
+function addiereMitZuschlag(eins, zwei){
+   let zuschlag = 0;
+
+   if (eins <= 10){
+      zuschlag = zuschlag + 1;
+   } else{
+    zuschlag = zuschlag + 2;
+   }
+
+   if (zwei <= 10){
+      zuschlag = zuschlag +1;
+} else{
+   zuschlag = zuschlag + 2;
+}
+return eins + zwei + zuschlag;
+}
+```
+
 ## Aufgabe 52
 ## Aufgabe 53
 ## Aufgabe 54

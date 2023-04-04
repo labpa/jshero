@@ -377,9 +377,23 @@ function getFirstElement([eins, zwei]){
 }
 ```
 
-## Aufgabe 55
-## Aufgabe 56
-## Aufgabe 57
+## Aufgabe 55 Array-Elemente schreiben
+```JS
+function setFirstElement([eins, zwei],drei){
+    return [drei, zwei];
+}
+```
+## Aufgabe 56 Array: length
+```JS
+function getLastElement(eins){
+    let letzter = eins.length -1;
+    return eins[letzter];
+}
+```
+## Aufgabe 57 Arrays sortieren
+```JS
+
+```
 ## Aufgabe 58
 ## Aufgabe 59
 ## Aufgabe 60 
@@ -445,3 +459,4 @@ function getFirstElement([eins, zwei]){
 ## Aufgabe 120
 ## Aufgabe 121
 ## Aufgabe 122
+

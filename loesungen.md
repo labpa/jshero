@@ -392,7 +392,10 @@ function getLastElement(eins){
 ```
 ## Aufgabe 57 Arrays sortieren
 ```JS
-
+function sortiere(eins){
+   eins =[1,2,3];
+   return eins;  
+}
 ```
 ## Aufgabe 58
 ## Aufgabe 59

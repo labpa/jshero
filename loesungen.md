@@ -229,11 +229,12 @@ let test = n1 + summe;
 return test;
 }
 ```
-## Aufgabe 39 Number: toString() !NICHT FERTIG!
+## Aufgabe 39 Number: toString() 
 ```JS
-function digitLength(eins){
-    let pars = parseInt(eins, 10)
-    return pars.toString();
+function digitLength(zahl){
+str = zahl.toString();
+number = str.replace('.',',');
+return number.length;
 }
 ```
 ## Aufgabe 40 Number: toFixed()

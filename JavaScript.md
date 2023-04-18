@@ -97,3 +97,5 @@ let c = true;
 let allesMoegliche = [a, b, c];
 ```
 Die Elemente eines Arrays können alle einen anderen Datentyp besitzen.
+
+test tes test

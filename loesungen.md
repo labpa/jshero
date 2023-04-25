@@ -392,12 +392,77 @@ function getLastElement(eins){
 }
 ```
 ## Aufgabe 57 Arrays sortieren
+### Falsche Lösung, richtiges Ergebnis
 ```JS
 function sortiere(eins){
    eins =[1,2,3];
    return eins;  
 }
 ```
+### zweiter Versuch
+```js
+function sortiere([eins, zwei, drei]){
+    ausgabe = [];
+    if (eins < zwei && zwei < drei){
+        ausgabe = [eins, zwei , drei];
+    }else if (eins < zwei && zwei > drei){
+        ausgabe = [eins, drei, zwei];
+    }else if (zwei < eins && eins < drei){
+        ausgabe = [zwei, eins, drei];
+    }else if ( eins > drei && zwei < drei){
+        ausgabe = [zwei, drei, eins];
+    }
+    return ausgabe;
+}
+```
+### driter Versuch
+![Alt text](./img/aufgabe57.PNG)
+```JS
+/* dritter Versuch */
+function sortiere([eins, zwei, drei]){
+    ausgabe = [];
+    if (eins < zwei && zwei < drei){
+        ausgabe = [eins, zwei , drei];
+    }else if (eins < zwei && zwei < drei){
+        ausgabe = [eins, drei, zwei];
+    }else if (zwei < eins && eins > drei){
+        ausgabe = [zwei, eins, drei];
+    }else if (zwei < eins && eins > drei){
+        ausgabe = [zwei, drei, eins ];
+    } else if (drei < zwei && zwei < eins){
+        ausgabe = [ drei, zwei, eins];
+    } else ausgabe = [drei, eins, zwei];
+    return ausgabe;
+}
+```
+
+### vierter Versuch
+![Alt text](./img/zweitesStruktogramm.PNG)
+```JS
+/* vierter Versuch */
+function sortiere([eins, zwei, drei]){
+    ausgabe = [];
+    if (eins < zwei && zwei < drei){
+        ausgabe = [eins, zwei , drei];
+    }else if (eins < zwei && zwei > drei){
+        ausgabe = [eins, drei, zwei];
+    }else if (zwei > eins && drei > eins){
+        ausgabe = [zwei, eins, drei];
+    }else if (zwei > eins && drei < eins){
+        ausgabe = [zwei, drei, eins ];
+    } else if (drei > zwei && zwei > eins){
+        ausgabe = [ drei, zwei, eins];
+    } else ausgabe = [drei, eins, zwei];
+    return ausgabe;
+}
+```
+
+
+
+
+
+
+
 ## Aufgabe 58
 ## Aufgabe 59
 ## Aufgabe 60 

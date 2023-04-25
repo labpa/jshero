@@ -47,6 +47,22 @@ function sortiere([eins, zwei, drei]){
 }
 
 
+/* dritter Versuch */
+function sortiere([eins, zwei, drei]){
+    ausgabe = [];
+    if (eins < zwei && zwei < drei){
+        ausgabe = [eins, zwei , drei];
+    }else if (eins < zwei && zwei > drei){
+        ausgabe = [eins, drei, zwei];
+    }else if (zwei < eins && eins < drei){
+        ausgabe = [zwei, eins, drei];
+    }else if (zwei < eins && eins > drei){
+        ausgabe = [zwei, drei, eins ];
+    } else if (drei < eins && eins < zwei){
+        ausgabe = [ drei, eins, zwei];
+    } else ausgabe = [drei, zwei, eins];
+    return ausgabe;
+}
 
 
 

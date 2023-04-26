@@ -83,8 +83,31 @@ function sortiere([eins, zwei, drei]){
 }
 
 
+/*fünfter Versuch*/
+function sortiere([eins, zwei, drei]){
+   let ausgabe = [];
+   if ((eins < zwei) && (zwei < drei)){
+    ausgabe = [eins, zwei, drei];
+   } else if ((eins < zwei)&& (zwei > drei)){
+    ausgabe = [eins, drei, zwei];
+   } else if ((zwei > eins) && (eins > drei)){
+    ausgabe = [zwei, eins, drei];}
 
+   return ausgabe;
+}
 
+/*sechster Versuch*/
+
+function sortiere([eins, zwei, drei]){
+    let ausgabe = [];
+    if (eins > zwei){
+        if (zwei > drei){
+            ausgabe = [eins, zwei, drei]
+        }
+    }
+    return ausgabe;
+ }
+ 
 
 
 

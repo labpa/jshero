@@ -112,3 +112,72 @@ function sortiere([eins, zwei, drei]){
 
 
 
+ function sortiere([eins, zwei, drei]){
+    if (eins>zwei){
+     if (drei>eins){
+         console.log("fall 1")
+         return [zwei, eins, drei]
+     } else{
+         console.log("fall 2")
+        return [drei, zwei, eins]
+      }
+   } else {
+        
+    if (drei>zwei){
+       console.log("fall 3")
+         
+   } else {
+     console.log("fall 4")
+
+   }
+  }
+ }
+
+sortiere([1,3,2]);
+
+function sortiere([a, b, c]){
+    // 321
+    if(c>b && b>a){ return[c, b, a]}
+    // 312
+    if(c>b && b<a){return[c, a, b]} 
+    // 231
+    if(b>c && c>a){return[b,c,a]} 
+    // 213
+    if(b>c && c<a){return[b, a, c]} 
+    // 132
+    if (a<b && b>c){return[a, c, b]} 
+    // 123
+    if (a>b && b<c){return[a, b, c]} 
+}
+321
+312
+231
+213
+132
+123
+
+function sortiere([a,b,c]){
+    //123
+    if(a<b && b<c){return[a,b,c]}
+    //132
+    if(a<b && b>c){return[a, c, b]}
+    //213
+    if(b>a && c<b){return[b, a, c]}
+    //231
+    if(b>a && c<b){return[b,c,a]}
+    //312
+    //321
+}
+
+/* Ansatz mit Math.min und Math.max*/
+function sortiere([a,b,c]){
+    let min = Math.min[a,b,c];
+    let max = MAth.max[a,b,c]
+    let middle = (min + max) /2
+
+
+}
+
+
+< kleiner
+> größer

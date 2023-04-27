@@ -181,3 +181,61 @@ function sortiere([a,b,c]){
 
 < kleiner
 > größer
+</kleiner>
+/*
+function sortiere2([eins, zwei, drei]){
+    if (eins>zwei){
+     if (drei>eins){
+         console.log("fall 1")
+         return [zwei, eins, drei]
+     } else{
+         console.log("fall 2")
+        return [drei, zwei, eins]
+      }
+   } else {
+        
+    if (drei>zwei){
+       console.log("fall 3")
+         return [eins, zwei, drei ]
+   } else {
+     console.log("fall 4")
+     return [drei, eins, zwei]
+   }
+  }
+ }
+
+
+
+
+
+
+function sortiere([eins, zwei, drei]){
+    if (eins>zwei){
+     if (drei>eins){
+         console.log("fall 1")
+         return [zwei, eins, drei]
+     } else{
+         console.log("fall 2")
+        return [drei, zwei, eins]
+      }
+   } else {
+        
+    if (drei>zwei){
+       console.log("fall 3")
+         return [eins, zwei, drei ]
+   } else {
+   
+     console.log("fall 4")
+     return [drei, eins, zwei]
+   
+   }
+  }
+ }
+ 
+let x = sortiere([2,3,1]);
+console.log("Ergebnis:"+ x);
+
+let y = sortiere([1,3,2]);
+console.log("Ergebnis:"+ y);
+
+*/
